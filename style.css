@@ -47,3 +47,11 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
+@media screen and (max-width: 380px){
+    .container{
+        flex-direction: column;
+        height: 150vh;
+        width: 100%;
+    }
+    
+}
